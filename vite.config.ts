@@ -73,6 +73,5 @@ export default defineConfig({
 		lightningcss: {
 			targets: browserslistToTargets(browserslist('defaults, not IE 11, not IE_Mob 11, not dead')),
 		},
-		postcss: './postcss.config.js',
 	},
 });
