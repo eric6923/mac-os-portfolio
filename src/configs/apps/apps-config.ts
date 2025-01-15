@@ -66,7 +66,7 @@ const viewSource = create_app_config({
 	resizable: true,
 
 	should_open_window: false,
-	external_action: () => window.open('https://github.com/puruvj/macos-web', '_blank'),
+	external_action: () => window.open('https://github.com/eric6923/mac-os-portfolio', '_blank'),
 });
 
 const vercel = create_app_config({
